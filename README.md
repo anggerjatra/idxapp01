@@ -2,13 +2,13 @@
 
 The starter kit for **Build and Ship a Live IDX Stock App with an AI Pair Programmer**, the GitHub Copilot x Sectors Community Meetup (31 October 2026, Block71 Jakarta).
 
-You build a small web app with GitHub Copilot: an investment calculator that grows into a stock app on live data from the Indonesia Stock Exchange (IDX), using the [Sectors API](https://sectors.app). No coding experience needed. Follow the course site, module by module.
+You build a small web app with GitHub Copilot, starting with an investment calculator and growing it into a stock app with live data from the Indonesia Stock Exchange (IDX), using the [Sectors API](https://sectors.app). No coding experience needed. Follow the course site, module by module.
 
 ## What's inside
 
 | File | What it is |
 |---|---|
-| `app.py` | Your app. It starts almost empty; you build it with Copilot |
+| `app.py` | Your Streamlit app, with an investment calculator to start from |
 | `sectors.py` | A ready-made helper that gets IDX data from Sectors. You don't need to change it |
 | `requirements.txt` | The Python packages the app needs |
 | `.env.example` | A sample secrets file; copy it to `.env` and add your Sectors API key |
@@ -24,7 +24,7 @@ You build a small web app with GitHub Copilot: an investment calculator that gro
    - **New to GitHub:** download the ZIP from the course's Google Drive link, unzip it, and open the folder in VS Code (**File → Open Folder**).
    - **Familiar with GitHub:** click **Use this template → Create a new repository**, then clone your copy with **Git: Clone** from the Command Palette.
 4. Press `Ctrl+Shift+P` (`Cmd+Shift+P` on a Mac), run **Python: Create Environment**, choose **Venv**, pick your Python, and tick `requirements.txt` so the packages are installed.
-5. Open a new terminal (**Terminal → New Terminal**) and run `streamlit run app.py`. A page titled **IDX Stock Snapshot** opens in your browser. Press `Ctrl+C` in the terminal to stop it.
+5. Open a new terminal (**Terminal → New Terminal**) and run `streamlit run app.py`. The investment calculator opens in your browser. Press `Ctrl+C` in the terminal to stop it.
 
 If step 4 fails, make the environment in the terminal instead:
 
